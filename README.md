@@ -28,11 +28,15 @@ NOTE: You will need to edit the .ino file to change the value of "const unsigned
 A 75 - 100 ohm  resistor is needed on pin 11 (CLOCK)
 
 CPS2 Board without CN9, CN2 interface pins
-------------------------------------------
+
 (Arduino 2)  DATA    ->  CN2 A32
+
 (Arduino 11) CLOCK   ->  CN2 A31 (Resistor needed, 75-100 ohm)
+
 (Arduino 3)  SETUP1  ->  CN2 A30
+
 (Arduino 12) SETUP2  ->  CN2 A29
+
 
 # 93646B-5 boards:
 
