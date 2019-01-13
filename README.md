@@ -10,10 +10,15 @@ This is intended to be used on a Arduino Nano due to the small form factor, but 
 # Boards with CN-9 except 93646B-5
 
 +5V     - Arudino 5V
+
 DATA    - Arduino # 2
+
 SETUP1  - Arduino # 3
+
 CLOCK   - Arduino # 11
+
 SETUP2  - Arduino # 12
+
 GND     - Arduino GND
 
 NOTE: You will need to edit the .ino file to change the value of "const unsigned char Key[] PROGMEM = ..." to the decryption key of the game you will be installing this in.
